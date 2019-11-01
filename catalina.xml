@@ -1,0 +1,99 @@
+<!-- Instructions:
+- Download and unzip Mojave dynamic background here: https://files.rb.gd/Catalina.zip 
+- Rename the extracted folder as "mojave-background" (Excuse the trouble but I renamed it on my machine and already use that path in the XML file)
+- Save this xml file next to the Mojave background files
+- Fix the path to the background images below (better using absolute path)
+- Lastly, either: 
+  + GNOME: Use gnome-tweaks tool to select this XML as wallpaper (as default wallpaper settings won't let you choose wallpaper from custom path)
+  + MATE: Go to background setting (in Appearance) > Choose +Add... > make sure **All files** filter is selected at the bottom right > Then choose mojave.xml
+-->
+<background>
+  <starttime>
+    <year>2014</year>
+    <month>01</month>
+    <day>11</day>
+    <hour>5</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  <!-- 05:00 -->
+  <static>
+    <duration>10795.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_2.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_2.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_3.jpg</to>
+  </transition>
+  <!-- 08:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_3.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_3.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_4.jpg</to>
+  </transition>
+  <!-- 10:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_4.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_4.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_5.jpg</to>
+  </transition>
+  <!-- 12:00 -->
+  <static>
+    <duration>10795.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_5.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_5.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_6.jpg</to>
+  </transition>
+  <!-- 15:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_6.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_6.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_7.jpg</to>
+  </transition>
+  <!-- 17:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_7.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_7.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_8.jpg</to>
+  </transition>
+  <!-- 19:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_8.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_8.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_1.jpg</to>
+  </transition>
+  <!-- 20:00 -->
+  <static>
+    <duration>32395.0</duration>
+    <file>/usr/share/backgrounds/catalina-background/Catalina_1.jpg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/catalina-background/Catalina_1.jpg</from>
+    <to>/usr/share/backgrounds/catalina-background/Catalina_2.jpg</to>
+  </transition>
+</background>
